@@ -1,0 +1,19 @@
+.headsentence{
+    font-size: 20px;
+    color: rgb(131, 96, 30);
+    position: relative;
+   animation: mymove 15s infinite;
+}
+@keyframes mymove {
+    0% {
+        left: -50px;
+      }
+      100% {
+       left:100%;
+      }
+      
+  }
+
+.home{
+    overflow-x: hidden;
+}

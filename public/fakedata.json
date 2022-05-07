@@ -1,0 +1,74 @@
+[
+    {
+      "name": "Hoodie",
+      "quantity": 45,
+      "index": 0,
+      "price": "$1,507.88",
+      "picture": "../src/All Images/inventories/img1.jpg",
+      "suppliername": "Mcdaniel Morris",
+      "description": "Excepteur sunt ipsum adipisicing sit laboris cillum esse tempor cupidatat ex amet id pariatur adipisicing. Ex fugiat ex elit nostrud proident. Commodo qui nulla ut adipisicing irure nulla. Incididunt excepteur culpa reprehenderit dolor culpa minim esse voluptate excepteur sit ad sit mollit aute. Amet consequat occaecat ullamco incididunt adipisicing consectetur.\r\n"
+    },
+    {
+      "name": "Polo T-shirt",
+      "quantity": 45,
+      "index": 1,
+      "price": "$3,492.69",
+      "picture": "http://placehold.it/32x32",
+      "suppliername": "Lang Griffin",
+      "description": "Laborum pariatur cillum in nostrud. Veniam eu sit aliqua amet laborum magna labore ex anim pariatur dolor incididunt sunt. Ut fugiat laborum cupidatat ut do excepteur ad et anim tempor. Elit aliqua veniam Lorem velit minim Lorem minim sit et elit incididunt incididunt sit ullamco. Incididunt veniam consequat tempor non mollit. Reprehenderit cupidatat velit do in pariatur.\r\n"
+    },
+    {
+      "name": "Women T-shirt",
+      "quantity": 45,
+      "index": 2,
+      "price": "$1,012.98",
+      "picture": "http://placehold.it/32x32",
+      "suppliername": "Adriana Guerra",
+      "description": "Tempor nisi adipisicing cupidatat ullamco consectetur velit magna eu deserunt. Voluptate consectetur dolor pariatur id aute minim deserunt incididunt velit deserunt velit. Dolore exercitation velit nostrud velit ut reprehenderit ad consequat ipsum elit. Enim eu cupidatat pariatur ut sunt aliquip voluptate eu enim ex. Esse culpa elit magna sunt cillum nulla excepteur.\r\n"
+    },
+    {
+      "name": "Hat",
+      "quantity": 45,
+      "index": 3,
+      "price": "$3,563.75",
+      "picture": "http://placehold.it/32x32",
+      "suppliername": "Annabelle Garrison",
+      "description": "Non aliquip laboris mollit fugiat fugiat eu eu esse eu voluptate non. Adipisicing nisi nostrud commodo irure tempor consectetur ea proident. Excepteur et do laborum velit culpa irure consectetur commodo consectetur culpa duis. Eiusmod exercitation laboris deserunt deserunt aliquip nostrud magna. Qui ad non laborum est deserunt. Labore culpa ullamco eiusmod nulla eiusmod nisi cillum elit voluptate aute consectetur et.\r\n"
+    },
+    {
+      "name": "Shirt",
+      "quantity": 45,
+      "index": 4,
+      "price": "$1,479.39",
+      "picture": "http://placehold.it/32x32",
+      "suppliername": "Cecile Dorsey",
+      "description": "Ut anim proident sit nostrud aute aliqua labore labore irure. Commodo non consectetur ad aliquip. Cupidatat sunt ut aliquip ea nulla ut dolor commodo. Nostrud consequat aute mollit velit do.\r\n"
+    },
+    {
+      "name": "Saree",
+      "quantity": 45,
+      "index": 5,
+      "price": "$1,561.07",
+      "picture": "http://placehold.it/32x32",
+      "suppliername": "Cunningham Eaton",
+      "description": "Quis deserunt reprehenderit voluptate laboris et. Nulla est eiusmod exercitation non velit excepteur laborum nostrud nostrud elit consequat. Et sint non minim exercitation duis in. Officia elit aute eiusmod ipsum in ipsum mollit ex quis.\r\n"
+    },
+    {
+      "name": "Saree",
+      "quantity": 45,
+      "index": 5,
+      "price": "$1,561.07",
+      "picture": "http://placehold.it/32x32",
+      "suppliername": "Cunningham Eaton",
+      "description": "Quis deserunt reprehenderit voluptate laboris et. Nulla est eiusmod exercitation non velit excepteur laborum nostrud nostrud elit consequat. Et sint non minim exercitation duis in. Officia elit aute eiusmod ipsum in ipsum mollit ex quis.\r\n"
+    },
+    {
+      "name": "Saree",
+      "quantity": 45,
+      "index": 5,
+      "price": "$1,561.07",
+      "picture": "http://placehold.it/32x32",
+      "suppliername": "Cunningham Eaton",
+      "description": "Quis deserunt reprehenderit voluptate laboris et. Nulla est eiusmod exercitation non velit excepteur laborum nostrud nostrud elit consequat. Et sint non minim exercitation duis in. Officia elit aute eiusmod ipsum in ipsum mollit ex quis.\r\n"
+    }
+  ]
