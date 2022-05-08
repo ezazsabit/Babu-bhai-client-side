@@ -69,6 +69,7 @@ const Inventory = () => {
                 .then(data => {
                     console.log('Success:', data);
                 })
+                event.target.reset();
 
     }
 
