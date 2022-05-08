@@ -48,6 +48,13 @@ const Login = () => {
 if (loading) {
     return <p>Loading...</p>;
   }
+  let errorHandle;
+      if(error){
+          errorHandle=
+          <div>
+              <p className='text-danger'>Error: {error?.message}</p>
+          </div>
+      }
     return (
         <div className='App LogIn'>
            <h1>Please Sign-in</h1>
@@ -69,6 +76,7 @@ if (loading) {
   <Button variant="warning" type="submit">
   Log-In
   </Button>
+  {errorHandle}
 </form>
             </div>
             <p>New to babubhai? <Link to='/register' className='text-decoration-none'> <span className='text-danger'>Please Register</span></Link></p>
