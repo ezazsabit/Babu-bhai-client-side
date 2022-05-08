@@ -7,18 +7,21 @@ const Tableitem = (props) => {
     const handleDelete=(id)=>{
       console.log(id);
       const _id= {id};
-      fetch(`http://localhost:5000/inventory`, {
-                method: 'DELETE',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(_id),
-            })
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Success:', data);
-                })
+      if (window.confirm("Are you sure?!")) {
+        fetch(`http://localhost:5000/inventory`, {
+          method: 'DELETE',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(_id),
+      })
+          .then(response => response.json())
+          .then(data => {
+              console.log('Success:', data);
+          })
 
+      } 
+     
     }
     return (
         <div >
