@@ -56,7 +56,7 @@ const Inventory = () => {
                 // const n=parseInt((event.target.value));
                 quantity=quantity+stock;
                 updateQuantity = { quantity };
-                console.log(updateQuantity)
+                // console.log(updateQuantity)
             }
             fetch(`http://localhost:5000/inventory/${id}`, {
                 method: 'PUT',
