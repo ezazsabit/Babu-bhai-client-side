@@ -27,6 +27,7 @@ const NavBar = () => {
     </Nav>
     <Nav>
     <Link to='/home' className='text-decoration-none text-dark d-flex align-items-center px-2 mx-auto'>Home</Link>
+    <Link to='/blogs' className='text-decoration-none text-dark d-flex align-items-center px-2 mx-auto'>Blogs</Link>
     {/* <Link to='/login' className='text-decoration-none text-dark d-flex align-items-center px-2 mx-auto'>Sign-In</Link>
 <Link className='text-decoration-none text-dark d-flex align-items-center px-2 mx-auto' to='/register'>Register</Link>  */}
     {/* {user? <p
