@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import useFetch from '../../../Custom Hook/useFetch';
 // import useProducts from '../../../Custom Hook/useProducts';
 import Eachproduct from '../Products/Eachproduct';
 import Item from '../../Item';
 
 const Products = () => {
-  const [data] = useFetch("http://localhost:5000/inventory");
+  const [data, setData] = useState([]);
+      
+  useEffect(() => {
+    fetch(`http://localhost:5000/inventory`)
+      .then((res) => res.json())
+      .then((data) => setData(data));
+  }, [data]);
+
   // console.log(data);
  
     return (
