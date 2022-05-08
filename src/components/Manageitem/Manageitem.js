@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Tableitem from '../Tableitem/Tableitem';
 
 const Manageitem = () => {
@@ -33,7 +34,7 @@ const Manageitem = () => {
           }
           
         </div>
-  
+        <Link to='/additems' className=' w-25 mx-auto btn btn-secondary p-3 mt-3 mb-3 text-decoration-none text-light d-flex justify-content-center '>Add-Items</Link>
 {/* </table> */}
         </div>
     );

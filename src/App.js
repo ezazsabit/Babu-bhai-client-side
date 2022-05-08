@@ -11,6 +11,7 @@ import Register from './components/Register page/Register';
 import Inventory from './components/Inventory/Inventory';
 import RequireAuth from './components/RequireAuth/RequireAuth';
 import Manageitem from './components/Manageitem/Manageitem';
+import Additems from './components/Additems/Additems';
 // import Login from './components/Log-in Page/Login/Login';
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/manageitems" element={<Manageitem />} />
+        <Route path="/additems" element={<Additems />} />
         <Route path="inventory/:id" element={<RequireAuth><Inventory /></RequireAuth>} />
       </Routes> 
       <Footer></Footer>
