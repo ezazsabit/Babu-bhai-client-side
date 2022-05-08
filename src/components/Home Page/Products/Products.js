@@ -3,6 +3,7 @@ import useFetch from '../../../Custom Hook/useFetch';
 // import useProducts from '../../../Custom Hook/useProducts';
 import Eachproduct from '../Products/Eachproduct';
 import Item from '../../Item';
+import { Link } from 'react-router-dom';
 
 const Products = () => {
   const [data, setData] = useState([]);
@@ -16,8 +17,8 @@ const Products = () => {
   // console.log(data);
  
     return (
-        <div >
-          <h1 className=" App text-warning">Our products!!</h1>
+        <div className='App' >
+          <h1 className="  text-warning">Our products!!</h1>
           <div >
           {
             // eslint-disable-next-line array-callback-return
@@ -28,7 +29,7 @@ const Products = () => {
           }
           
         </div>
-                
+       <Link to='/manageitems' className='w-25 mx-auto btn btn-secondary p-3 mt-3 mb-3 text-decoration-none text-light d-flex justify-content-center'>Manage-Inventories</Link>
              
             
           {/* <h2>{data.length} </h2>  */}
