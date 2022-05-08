@@ -24,7 +24,7 @@ const Manageitem = () => {
       <th scope="col">Handle</th>
     </tr>
   </thead> */}
-  <div >
+  <div className=' App' >
           {
             // eslint-disable-next-line array-callback-return
             
